@@ -10,3 +10,5 @@ console.log(a1, b1);
 const x = [1, 2, 3];
 const [y, z] = x;
 console.log(y, z);
+const { m, ...n } = { m: 1, b: 2, c: 3 };
+console.log(m, n);
